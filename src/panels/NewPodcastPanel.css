@@ -1,0 +1,98 @@
+#new_podcast .name_cell .Avatar__shadow {
+  background-color: var(--field_background);
+  border-radius: 10px;
+}
+
+#new_podcast .name_cell .Icon {
+  color: var(--accent);
+}
+
+#new_podcast .name_cell .name_top {
+  color: var(--text_subhead);
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+#new_podcast .name_cell .FormLayout__row {
+  padding: 0;
+  padding-top: 1px;
+}
+
+#new_podcast .name_cell .FormLayout__row-top {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#new_podcast .name_cell .FormField {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#new_podcast .name_cell .Cell__main {
+  padding-right: 0;
+}
+
+#new_podcast .name_cell .avatar_div {
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+#new_podcast .name_cell .image {
+  height: 72px;
+  width: 72px;
+  border-radius: 10px;
+}
+
+#new_podcast .audio_cell .Avatar__img {
+  background-color: var(--field_background);
+}
+
+#new_podcast .audio_cell {
+  margin-top: 22px;
+}
+
+#new_podcast .audio_cell .audio_time {
+  color: var(--text_tertiary);
+}
+
+#new_podcast .redactor_text {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: var(--text_secondary);
+  margin-top: 8px;
+}
+
+#new_podcast .redactor_button {
+  /* margin: 18px 12px 22px 12px; */
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+
+#new_podcast .redactor_button_div {
+  margin-top: 18px;
+  margin-bottom: 22px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#new_podcast .description .Textarea {
+  height: 64px;
+}
+
+#new_podcast .load_placeholder .Placeholder__in {
+  padding: 32px;
+}
+
+#new_podcast .privacy {
+  margin-top: 7.5px;
+}
+
+#new_podcast .footer_text {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: var(--text_secondary);
+}
+
+#new_podcast .button {
+  margin-top: 24px;
+}

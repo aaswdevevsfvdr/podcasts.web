@@ -1,0 +1,129 @@
+#redactor .card {
+  width: calc(100% - 24px);
+  margin: 10px 12px 14px 12px;
+
+  border: 0.5px solid var(--separator_common);
+  border-radius: 10px;
+  height: 182px;
+
+}
+
+#redactor .timecodes_header {
+  color: var(--text_secondary);
+}
+
+#redactor .timecode_add .SimpleCell__children {
+  color: var(--accent);
+}
+
+#redactor .timecode_add .Avatar {
+  margin-right: 12px;
+}
+
+#redactor .footer_text {
+  color: var(--text_secondary);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+#redactor .timeline {
+  height: 26px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px 10px 0 0;
+}
+
+#redactor .scroll {
+  height: 122px;
+  background-color: var(--field_background);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+#redactor .scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#redactor .scroll .scroll_pitches {
+  display: flex;
+  align-items: center;
+  height: 96px;
+}
+
+#redactor .controls {
+  display: flex;
+  padding: 8px;
+}
+
+#redactor .control_button {
+  height: 44px;
+  width: 44px;
+  border-radius: 10px;
+  background-color: var(--field_background);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#redactor .control_play {
+  margin-right: 30px;
+  background-color: var(--accent);
+  color: white;
+}
+
+#redactor .control_cut {
+  margin-right: 4px;
+}
+
+#redactor .control_music {
+  margin-right: 4px;
+  margin-left: auto;
+}
+
+#redactor .control_up {
+  margin-right: 4px;
+}
+
+#redactor .control_down {
+}
+
+#redactor .scroll_pitches .pitch_line {
+  background-color: var(--accent);
+  min-width: 2px;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+#redactor .scroll_pitches .pitch_line:first-child {
+  margin-left: 3px;
+}
+
+#redactor .second_line {
+  background-color: var(--icon_secondary); 
+  height: 2px;
+  min-width: 0.5px;
+  margin-right: 4.5px;
+  margin-bottom: 1px;
+}
+
+#redactor .second_line_large {
+  height: 4px;
+}
+
+#redactor .second_line_extralarge {
+  height: 9px;
+}
+
+#redactor .second_line:first-child {
+  margin-left: 4.5px;
+}
+
+#redactor .timeline_time {
+  position: absolute;
+  top: -22px;
+  left: -16px;
+  color: var(--text_tertiary);
+}

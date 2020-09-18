@@ -1,0 +1,26 @@
+#snippet .header .left {
+  float: left;
+  margin-right: 14px;
+}
+
+#snippet .header .right .name {
+  margin-top: 5px;
+}
+
+#snippet .header .right .author {
+  color: var(--text_name);
+  margin-top: 8px;
+}
+
+#snippet .header .right .duration {
+  color: var(--text_secondary);
+  margin-top: 6px;
+}
+
+#snippet .description .description_header {
+  margin-bottom: 13px;
+}
+
+#snippet .Cell__main {
+  margin-bottom: 4px;
+}

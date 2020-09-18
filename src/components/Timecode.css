@@ -1,0 +1,21 @@
+#timecode .Icon {
+  color: var(--destructive);
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-top: 8px;
+}
+
+#timecode {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#timecode .name {
+  margin-right: 12px;
+}
+
+#timecode .time {
+  width: 76px;
+  margin-right: 12px;
+}
